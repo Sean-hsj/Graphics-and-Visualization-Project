@@ -1,0 +1,23 @@
+We made a side-scrolling game called Adventure Island. The player will use the arrow keys to control the character to move around the screen. During the process of moving, the player will cross the screen without collision with obstacles(including swords, and spikes) to earn their scores. The collision with obstacles and enemies will lead to the reduction of score. Once the score of the current player equals to zero, the game is over.
+
+Difficulties: we originally want to include camera to follow the movement of our character and two players to control our character but we find they are kind of hard to actualize. 
+
+Shaojie Hou:
+Keyboard interactivity:
+Using up, right, and left arrow key to control the movement of characters, including running and jumping. There are keyPressed and keyReleased function get involved to control the position of movement which makes pressing two keys simultaneously becoming possible.
+Multiple game screens and character selection: write functions to determine the switching between multiple screens; makes the character displayed in the game to be what the user selected.
+The scoring functionality: record the score of the current user and once they have collisions with obstacles, their scores will be reduced accordingly.
+
+Yichen (Ruby) Pan: 
+Keyboard interactivity: pause button, continue button, menu button, play buttons, reset button, scoreboard button, mute button (jump to specific game screen with the click sound or set the player position) 
+Multiple game screens: main menu screen, character selection screen, scoreboard screen, pause screen, game result win or lose screen
+Data Input/Output: store the highest 5 scores and display on the scoreboard in scorefile.txt
+Sounds: player jumping sound (jump.wav), pressing button sound (click.wav), background music sound (bgm.mp3) (mutable or unmutable if click the mute button showing on each game screen)
+
+
+John Nichols
+Collision determination:
+Creates two functions to determine if the character is colliding with any obstacles within the screen
+Living state determination:
+Write functions to determine if the current character is still alive and switch the game screen to its corresponding page.
+He also writes the functionality to collect coins and timer within the game but we chose not to include them in our game in the end.

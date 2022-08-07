@@ -1,0 +1,16 @@
+There are different classes in our final project Adventure Island, and 
+each of our teammate are responsible for different functionalities.
+
+Shaojie is responsible for the controlling of characters and scoring. The
+functionality of jumping doesn't work as expected at the beginning but was
+finally figured out.
+
+Yichen did the GUI and switching between different screen. Some buttons are
+not positioned correctly within the screen. We found that was caused by the
+improper choice of image mode.
+
+John creates functions for the determination of collisions to obstacles and coin
+collections.
+
+All of us worked together and finished our work on time. We learned a lot from 
+this final project as well.
